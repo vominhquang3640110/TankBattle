@@ -1,0 +1,2 @@
+C:\Users\q0994\Desktop\TankBattle\TankBattle\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\q0994\Desktop\TankBattle\TankBattle\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

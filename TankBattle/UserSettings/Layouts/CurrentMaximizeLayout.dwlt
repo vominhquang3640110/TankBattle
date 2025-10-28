@@ -35,17 +35,17 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13974, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Simulator
+    m_Image: {fileID: 3038311277492192215, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
-    m_TextWithWhitespace: "Game\u200B"
+    m_TextWithWhitespace: "Simulator\u200B"
   m_Pos:
     serializedVersion: 2
     x: 0
@@ -63,71 +63,40 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
+  m_SerializedViewNames:
+  - UnityEditor.GameView
+  m_SerializedViewValues:
+  - C:\Users\q0994\Desktop\TankBattle\TankBattle\Library\PlayModeViewStates\0947855453b332547896c33d9437f516
+  m_PlayModeViewName: Device Simulator
   m_ShowGizmos: 0
   m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1920, y: 1080}
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 1}
+  m_TargetSize: {x: 2338, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
+  m_EnterPlayModeBehavior: 2
   m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -768
-    m_HBaseRangeMax: 768
-    m_VBaseRangeMin: -432
-    m_VBaseRangeMax: 432
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 777.4
-      height: 305
-    m_Scale: {x: 0.35300922, y: 0.35300925}
-    m_Translation: {x: 388.7, y: 152.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -1101.1044
-      y: -432
-      width: 2202.2087
-      height: 864
-    m_MinimalGUI: 1
-  m_defaultScale: 0.35300925
-  m_LastWindowPixelSize: {x: 971.75, y: 407.5}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
-  m_showToolbar: 1
+  m_SimulatorState:
+    controlPanelVisible: 0
+    controlPanelWidth: 0
+    controlPanelFoldoutKeys:
+    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
+    controlPanelFoldoutValues: 00
+    pluginNames:
+    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
+    - UnityEngine.InputSystem.Editor.InputSystemPlugin
+    pluginStates:
+    - '{}'
+    - '{}'
+    scale: 25
+    fitToScreenEnabled: 1
+    rotationDegree: 270
+    highlightSafeAreaEnabled: 0
+    friendlyName: Apple iPhone 12 mini
+    screenIndex: 0
+    networkReachability: 1
+    systemLanguage: 10
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,8 +142,8 @@ MonoBehaviour:
     y: 0
     width: 778.4
     height: 364.8
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -789,9 +758,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 642.5238, y: 525.7783, z: 5.0220256}
+    m_Target: {x: 1414.96, y: 654.5177, z: 5.0220256}
     speed: 2
-    m_Value: {x: 642.5238, y: 525.7783, z: 5.0220256}
+    m_Value: {x: 1414.96, y: 654.5177, z: 5.0220256}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1416,7 +1385,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SimulatorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -1432,7 +1401,7 @@ MonoBehaviour:
   - {fileID: 9}
   - {fileID: 2}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1502,7 +1471,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6510
+  controlID: 50
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -1523,8 +1492,8 @@ MonoBehaviour:
     y: 0
     width: 360
     height: 386.4
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -1569,9 +1538,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d8b8ffffa2b7ffff
-      m_LastClickedID: -18526
-      m_ExpandedIDs: a4b7ffffd6b8ffff88b9ffff78baffff78bcffff76bdffffa8ceffff8acffffffaebffff84eeffff00f4ffff1cfbffff60b8000070d90000ecd9000024dc000086dc000074dd0000d6dd0000
+      m_SelectedIDs: 8e7e0100
+      m_LastClickedID: 97934
+      m_ExpandedIDs: 6c42feff3e43feff7248feff2c49feff9851feff5252feff4c5afeff945dfeff4e5efeff9a61feff5662feff346bfeff4c6bfefff070feff8c73feff9a73feffbe73feffe6c3feff5e7101008a71010088750100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1682,14 +1651,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "C:\\Users\\q0994\\Desktop\\\u4F5C\u6210\u4E2D\\Tank"
+  m_LastProjectPath: C:\Users\q0994\Desktop\TankBattle\TankBattle
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 487.6}
-    m_SelectedIDs: 2cb40000
-    m_LastClickedID: 46124
-    m_ExpandedIDs: 000000003ab300003cb300003eb3000040b3000042b3000044b3000046b3000048b300004ab300004cb300004eb3000050b3000052b3000054b3000000ca9a3b
+    scrollPos: {x: 0, y: 55.600006}
+    m_SelectedIDs: dc470100
+    m_LastClickedID: 83932
+    m_ExpandedIDs: 00000000c647010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1718,7 +1687,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003ab300003cb300003eb3000040b3000042b3000044b3000046b3000048b300004ab300004cb300004eb3000050b3000052b3000054b3000000ca9a3b
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1744,9 +1713,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d8b8ffffa2b7ffff
-    m_LastClickedInstanceID: -18216
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 8e7e0100
+    m_LastClickedInstanceID: 97934
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 926d0000fa6d00000e7000005c910000449000007c9a00004ca100003ab600003eb6000076930000c48f000016f700001ef7000022f700004e96000000000000ccb50000eeb10000f4b10000f2b10000eab10000e8b10000f0b10000e2b10000e6b100001eff0000f6b10000bac30000eec20000c8c90000bec90000cac90000c2d10000aac90000e29c0100869c01007eeb01004ce00100a2bf0000e4cd0000b67c0100ccb70000d2b7000052d8000050d8000034800100747c0100b09501009c9501003813ffffd0c801002e9701002c970100cec80100d8c80100d6c80100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1881,7 +1850,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 269.59998
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

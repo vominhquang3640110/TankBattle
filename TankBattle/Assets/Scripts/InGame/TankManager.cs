@@ -104,15 +104,30 @@ public class TankManager : MonoBehaviour
     /// </summary>
     public IEnumerator Battle2Flow()
     {
+        List<int> removeIndex = new List<int>();
         //守備側のTrapを生成
         if (inGameManager._P1.isTurn)
         {
+            foreach (var tank in battleTankListP2)
+            {
+                if (tank != null)
+                {
+                    tank.GetComponent<Tank>().TankDestroy();
+                }
+            }
             battleTankListP2.Clear();
             //自分のターンなら相手のタンクを生成
             yield return StartCoroutine(TankCreateAndMove("P2", inGameManager._P2.slotDatas, createPositionP2, battleSlotPositionP2));
         }
         else
         {
+            foreach (var tank in battleTankListP1)
+            {
+                if (tank != null)
+                {
+                    tank.GetComponent<Tank>().TankDestroy();
+                }
+            }
             battleTankListP1.Clear();
             //相手のターンなら自分のタンクを生成
             yield return StartCoroutine(TankCreateAndMove("P1", inGameManager._P1.slotDatas, createPositionP1, battleSlotPositionP1));

@@ -18,7 +18,7 @@ public class PlayerInfor : MonoBehaviour
 
     void Awake()
     {
-        randomNumberTurn = 3;//Random.Range(1, 100);
+        randomNumberTurn = Random.Range(1, 100);
         HP = 5;
 
         //slotDatas‚ğ‰Šú‰»

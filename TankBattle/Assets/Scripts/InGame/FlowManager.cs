@@ -345,7 +345,7 @@ public class FlowManager : MonoBehaviour
 
         if (turnCounter > 1)
         {
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(2);
         }
         else
         {
@@ -355,10 +355,6 @@ public class FlowManager : MonoBehaviour
         //ターンの終わりにいじったパラメータを初期化する
         if (turnCounter > 1)
         {
-            for (int i = 0; i < inGameManager._P1.slotDatas.Length; i++)
-            {
-                inGameManager._P1.slotDatas[i] = "";
-            }
             uiManager.ReSetSlotButton();
             foreach (var tank in tankManager.battleTankListP1)
             {
@@ -376,6 +372,10 @@ public class FlowManager : MonoBehaviour
             }
             tankManager.battleTankListP1.Clear();
             tankManager.battleTankListP2.Clear();
+            for (int i = 0; i < inGameManager._P1.slotDatas.Length; i++)
+            {
+                inGameManager._P1.slotDatas[i] = "";
+            }
             //チュートリアルである
             if (tutorialManager != null)
             {

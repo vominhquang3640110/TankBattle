@@ -1,0 +1,10 @@
+# ninja log v5
+50	3590	7833223597068219	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	f9dd781c1f6e570e
+35	3614	7833223597534067	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e9789df739447629
+23	3627	7833223597594766	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f30d84a3b9fe54f4
+101	3684	7833223598249266	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	483959b70c373902
+119	3838	7833223599748594	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	cad9f43b944626ac
+11	3874	7833223600162677	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	8b509ffee7301cd1
+82	4169	7833223603210135	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3f15631a42af8b6e
+0	4293	7833223604399162	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f4fb86c9e0b38c3a
+4294	4469	7833223606220131	C:/Users/q0994/Desktop/TankBattle/TankBattle/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/263k3c1x/obj/arm64-v8a/libgame.so	12f5ff0b4b35fdd2
